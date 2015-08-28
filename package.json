@@ -1,0 +1,29 @@
+{
+  "name": "prismarine-biome",
+  "version": "0.1.0",
+  "description": "Represent a minecraft biome with its associated data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrismarineJS/prismarine-biome.git"
+  },
+  "peerDependencies": {
+    "minecraft-data":"0.x"
+  },
+  "devDependencies": {
+    "minecraft-data":"0.x"
+  },
+  "keywords": [
+    "biome",
+    "minecraft",
+    "prismarine"
+  ],
+  "author": "Romain Beaumont <romain.rom1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrismarineJS/prismarine-biome/issues"
+  }
+}
