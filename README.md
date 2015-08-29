@@ -1,4 +1,5 @@
 # prismarine-biome
+[![NPM version](https://img.shields.io/npm/v/prismarine-biome.svg)](http://npmjs.com/package/prismarine-biome)
 
 Represent a minecraft biome with its associated data
 
