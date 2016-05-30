@@ -1,6 +1,6 @@
 {
   "name": "prismarine-biome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Represent a minecraft biome with its associated data",
   "main": "index.js",
   "scripts": {

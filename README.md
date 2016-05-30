@@ -33,6 +33,10 @@ Numerical id.
 
 ## History
 
+### 1.0.1
+
+* bump mcdata
+
 ### 1.0.0
 
 * bump mcdata major
