@@ -16,7 +16,5 @@ const emptyBiome = {
 }
 
 function Biome (id) {
-  const biomeEnum = biomes[id] || emptyBiome
-
-  return { ...biomeEnum, id }
+  return biomes[id] || {...emptyBiome, id}
 }
