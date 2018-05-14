@@ -1,5 +1,5 @@
-var Biome=require("./")("1.8");
+const Biome = require('./')('1.8')
 
-var ocean=new Biome(0);
+const ocean = new Biome(0)
 
-console.log(ocean);
+console.log(ocean)

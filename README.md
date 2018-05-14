@@ -1,14 +1,15 @@
 # prismarine-biome
 [![NPM version](https://img.shields.io/npm/v/prismarine-biome.svg)](http://npmjs.com/package/prismarine-biome)
+[![Build Status](https://circleci.com/gh/PrismarineJS/prismarine-biome/tree/master.svg?style=shield)](https://circleci.com/gh/PrismarineJS/prismarine-biome/tree/master)
 
 Represent a minecraft biome with its associated data
 
 ## Usage
 
 ```js
-var Biome=require("prismarine-biome")("1.8");
+const Biome=require("prismarine-biome")("1.8");
 
-var ocean=new Biome(0);
+const ocean=new Biome(0);
 
 console.log(ocean);
 ```

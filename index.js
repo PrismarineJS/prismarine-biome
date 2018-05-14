@@ -1,6 +1,6 @@
 module.exports = loader
 
-var biomes
+let biomes
 
 function loader (mcVersion) {
   biomes = require('minecraft-data')(mcVersion).biomes
