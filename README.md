@@ -34,6 +34,10 @@ Numerical id.
 
 ## History
 
+### 1.1.0
+
+* typescript definitions (thanks @IdanHo)
+
 ### 1.0.1
 
 * bump mcdata
