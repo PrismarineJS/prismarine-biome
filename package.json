@@ -6,6 +6,7 @@
   "typings": "index.d.ts",
   "scripts": {
     "test": "npm run lint",
+    "fix": "standard --fix",
     "lint": "standard"
   },
   "repository": {
