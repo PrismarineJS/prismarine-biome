@@ -6,6 +6,7 @@
   "typings": "index.d.ts",
   "scripts": {
     "test": "npm run lint",
+    "fix": "standard --fix",
     "lint": "standard"
   },
   "repository": {
@@ -29,6 +30,6 @@
     "url": "https://github.com/PrismarineJS/prismarine-biome/issues"
   },
   "dependencies": {
-    "standard": "^11.0.1"
+    "standard": "^14.3.4"
   }
 }
