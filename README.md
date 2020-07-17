@@ -1,7 +1,6 @@
 # prismarine-biome
 [![NPM version](https://img.shields.io/npm/v/prismarine-biome.svg)](http://npmjs.com/package/prismarine-biome)
-[![Build Status](https://circleci.com/gh/PrismarineJS/prismarine-biome/tree/master.svg?style=shield)](https://circleci.com/gh/PrismarineJS/prismarine-biome/tree/master)
-
+[![Build Status](https://github.com/PrismarineJS/prismarine-biome/workflows/CI/badge.svg)](https://github.com/PrismarineJS/prismarine-biome/actions?query=workflow%3A%22CI%22)
 Represent a minecraft biome with its associated data
 
 ## Usage
