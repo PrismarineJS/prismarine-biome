@@ -17,7 +17,8 @@
     "minecraft-data": "^2.0.0"
   },
   "devDependencies": {
-    "minecraft-data": "^2.0.0"
+    "minecraft-data": "^2.0.0",
+    "standard": "^14.3.4"
   },
   "keywords": [
     "biome",
@@ -30,6 +31,5 @@
     "url": "https://github.com/PrismarineJS/prismarine-biome/issues"
   },
   "dependencies": {
-    "standard": "^14.3.4"
   }
 }
