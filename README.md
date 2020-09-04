@@ -33,6 +33,10 @@ Numerical id.
 
 ## History
 
+### 1.1.1
+
+* move standard to dev dep
+
 ### 1.1.0
 
 * typescript definitions (thanks @IdanHo)
