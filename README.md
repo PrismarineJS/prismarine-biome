@@ -1,16 +1,17 @@
 # prismarine-biome
 [![NPM version](https://img.shields.io/npm/v/prismarine-biome.svg)](http://npmjs.com/package/prismarine-biome)
 [![Build Status](https://github.com/PrismarineJS/prismarine-biome/workflows/CI/badge.svg)](https://github.com/PrismarineJS/prismarine-biome/actions?query=workflow%3A%22CI%22)
+
 Represent a minecraft biome with its associated data
 
 ## Usage
 
 ```js
-const Biome=require("prismarine-biome")("1.8");
+const registry = require('prismarine-registry')('1.8')
+const Biome = require("prismarine-biome")(registry);
 
-const ocean=new Biome(0);
-
-console.log(ocean);
+const ocean = new Biome(registry.biomesByName.ocean.id)
+console.log(ocean)
 ```
 
 ## API
