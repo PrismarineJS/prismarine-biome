@@ -2,8 +2,9 @@ module.exports = loader
 
 let biomes
 
-function loader (mcVersion) {
-  biomes = require('minecraft-data')(mcVersion).biomes
+function loader (registryOrVersion) {
+  const registry = typeof registryOrVersion === 'string' ? require('prismarine-registry')(registryOrVersion) : registryOrVersion
+  biomes = registry.biomes
   return Biome
 }
 
