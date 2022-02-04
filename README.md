@@ -34,6 +34,9 @@ Numerical id.
 
 ## History
 
+### 1.2.0
+* support pregistry
+
 ### 1.1.2
 * Update type definitions
 
