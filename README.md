@@ -34,6 +34,9 @@ Numerical id.
 
 ## History
 
+### 1.2.1
+* Handle registry without biome info
+
 ### 1.2.0
 * support pregistry
 
