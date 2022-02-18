@@ -11,7 +11,7 @@ const emptyBiome = {
 function loader (registryOrVersion) {
   const registry = typeof registryOrVersion === 'string' ? require('prismarine-registry')(registryOrVersion) : registryOrVersion
   const biomes = registry.biomes
-  return function Biome(id) {
+  return function Biome (id) {
     return biomes?.[id] || { ...emptyBiome, id }
   }
 }
