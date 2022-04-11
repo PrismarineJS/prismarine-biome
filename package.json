@@ -14,11 +14,11 @@
     "url": "https://github.com/PrismarineJS/prismarine-biome.git"
   },
   "peerDependencies": {
-    "minecraft-data": "^2.0.0",
+    "minecraft-data": "^3.0.0",
     "prismarine-registry": "^1.1.0"
   },
   "devDependencies": {
-    "minecraft-data": "^2.0.0",
+    "minecraft-data": "^3.0.0",
     "standard": "^16.0.1"
   },
   "keywords": [
